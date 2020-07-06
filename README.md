@@ -16,14 +16,17 @@ fióktípusok:
   -tanár: meg tudja tekinteni a publikus információkat
   -osztály: jelentkezhet osztályprodukcióval, megtekintheti a publikus információkat
   -osztályfőnök: (egy osztályfőnök tanári fiókja személyes hitelesítés után) jelentkezhet osztályprodukcióval, és megtekintheti és szerkesztheti osztályának összes produkcióját és megtekintheti a publikos információkat
-  -admin fiók: látja az összes előadást, nyomtatható formákat lekérhet
-  -stúdiós fiók: hozzáfér a feltöltött fájlokhoz, hozzáfér a sorrendhez, hozzáfér az előadás módhoz(!!!), megtekintheti a publikus információkat
-  -super_user: hozzáfér mindenhez (törlés, migrálás, akármi)
+  -admin fiók: látja az összes előadást, nyomtatható formákat lekérhet, értesítéseket küldhet
+  -stúdiós fiók: hozzáfér a feltöltött fájlokhoz, hozzáfér a sorrendhez, hozzáfér az előadás módhoz(!!!), megtekintheti a publikus információkat, értsítéseket küldhet
+  -super_user: hozzáfér mindenhez (törlés, migrálás, akármi), éertesítéseket küldhet
   
 publikus információ:
   -amint kész van, az előadások sorrendje
   -szabályzat
   -zsűritagok
+ 
+éretsítések:
+  lehet küldeni a weblapra(értesítések menüpont), a weblapra, azonnal megjelőként, és email-ra (vagy ezek bármilyen kombinációjára)
   
 BACKEND:
   sql kliens: Mysql
